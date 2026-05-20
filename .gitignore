@@ -1,5 +1,15 @@
-# Object file
-*.o
+# ROS 2 build artifacts
+build/
+install/
+log/
+.colcon/
 
-# Ada Library Information
-*.ali
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
