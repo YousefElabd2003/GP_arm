@@ -1,0 +1,40 @@
+[0.103s] Invoking command in '/home/yousef_elabd/gp_arm/build/gp_arm_moveit': AMENT_PREFIX_PATH=/home/yousef_elabd/gp_arm/install/my_robotic_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yousef_elabd/gp_arm/build/gp_arm_moveit -- -j24 -l24
+[0.256s] Invoked command in '/home/yousef_elabd/gp_arm/build/gp_arm_moveit' returned '0': AMENT_PREFIX_PATH=/home/yousef_elabd/gp_arm/install/my_robotic_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yousef_elabd/gp_arm/build/gp_arm_moveit -- -j24 -l24
+[0.278s] Invoking command in '/home/yousef_elabd/gp_arm/build/gp_arm_moveit': AMENT_PREFIX_PATH=/home/yousef_elabd/gp_arm/install/my_robotic_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yousef_elabd/gp_arm/build/gp_arm_moveit
+[0.310s] -- Install configuration: ""
+[0.313s] -- Execute custom install script
+[0.317s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/ament_index/resource_index/package_run_dependencies/gp_arm_moveit
+[0.318s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/ament_index/resource_index/parent_prefix_path/gp_arm_moveit
+[0.319s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/environment/ament_prefix_path.sh
+[0.320s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/environment/ament_prefix_path.dsv
+[0.321s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/environment/path.sh
+[0.322s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/environment/path.dsv
+[0.323s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/local_setup.bash
+[0.323s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/local_setup.sh
+[0.324s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/local_setup.zsh
+[0.325s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/local_setup.dsv
+[0.325s] -- Symlinking: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/package.dsv
+[0.342s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/ament_index/resource_index/packages/gp_arm_moveit
+[0.342s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/cmake/gp_arm_moveitConfig.cmake
+[0.343s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/cmake/gp_arm_moveitConfig-version.cmake
+[0.343s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/package.xml
+[0.346s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/launch/demo.launch.py
+[0.346s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/launch/move_group.launch.py
+[0.347s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/launch/moveit_rviz.launch.py
+[0.347s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/launch/rsp.launch.py
+[0.348s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/launch/setup_assistant.launch.py
+[0.348s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/launch/spawn_controllers.launch.py
+[0.349s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/launch/static_virtual_joint_tfs.launch.py
+[0.350s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/launch/warehouse_db.launch.py
+[0.352s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/config/config_arm_robot.ros2_control.xacro
+[0.352s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/config/config_arm_robot.srdf
+[0.352s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/config/config_arm_robot.urdf.xacro
+[0.353s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/config/initial_positions.yaml
+[0.354s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/config/joint_limits.yaml
+[0.354s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/config/kinematics.yaml
+[0.355s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/config/moveit.rviz
+[0.355s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/config/moveit_controllers.yaml
+[0.356s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/config/pilz_cartesian_limits.yaml
+[0.356s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/config/ros2_controllers.yaml
+[0.357s] -- Up-to-date symlink: /home/yousef_elabd/gp_arm/install/gp_arm_moveit/share/gp_arm_moveit/.setup_assistant
+[0.361s] Invoked command in '/home/yousef_elabd/gp_arm/build/gp_arm_moveit' returned '0': AMENT_PREFIX_PATH=/home/yousef_elabd/gp_arm/install/my_robotic_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yousef_elabd/gp_arm/build/gp_arm_moveit

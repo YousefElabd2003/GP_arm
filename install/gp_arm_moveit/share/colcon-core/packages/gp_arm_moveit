@@ -1,0 +1,1 @@
+controller_manager:ign_ros2_control:joint_state_broadcaster:joint_state_publisher:joint_trajectory_controller:moveit_configs_utils:moveit_kinematics:moveit_planners:moveit_py:moveit_ros_move_group:my_robotic_arm:robot_state_publisher:ros_gz_sim:rviz2:tf2_ros:xacro

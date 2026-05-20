@@ -1,0 +1,19 @@
+[1.066s] Invoking command in '/home/yousef_elabd/gp_arm/build/my_robotic_arm': PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yousef_elabd/gp_arm/build/my_robotic_arm/build --no-deps symlink_data
+[1.520s] running develop
+[1.782s] running egg_info
+[1.784s] writing my_robotic_arm.egg-info/PKG-INFO
+[1.784s] writing dependency_links to my_robotic_arm.egg-info/dependency_links.txt
+[1.786s] writing entry points to my_robotic_arm.egg-info/entry_points.txt
+[1.787s] writing requirements to my_robotic_arm.egg-info/requires.txt
+[1.787s] writing top-level names to my_robotic_arm.egg-info/top_level.txt
+[1.791s] reading manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+[1.792s] writing manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+[1.794s] running build_ext
+[1.794s] Creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my-robotic-arm.egg-link (link to .)
+[1.796s] Installing arm_ik_solver script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+[1.796s] Installing arm_mover_node script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+[1.796s] Installing point_extractor script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+[1.797s] 
+[1.797s] Installed /home/yousef_elabd/gp_arm/build/my_robotic_arm
+[1.797s] running symlink_data
+[1.842s] Invoked command in '/home/yousef_elabd/gp_arm/build/my_robotic_arm' returned '0': PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yousef_elabd/gp_arm/build/my_robotic_arm/build --no-deps symlink_data

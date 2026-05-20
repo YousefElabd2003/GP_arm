@@ -1,0 +1,7 @@
+[console_scripts]
+arm_ik_solver = my_robotic_arm.arm_ik_solver:main
+arm_mover_node = my_robotic_arm.arm_mover:main
+door_sim = my_robotic_arm.door_routine_sim:main
+elevator_sim = my_robotic_arm.elevator_routine_sim:main
+point_extractor = my_robotic_arm.point_extractor:main
+

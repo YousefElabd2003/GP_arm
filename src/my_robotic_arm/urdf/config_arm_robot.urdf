@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="config_arm_robot">
+
+  <material name="silver">
+    <color rgba="0.792 0.819 0.933 1" />
+  </material>
+  <material name="blue">
+    <color rgba="0.011 0.207 1 1" />
+  </material>
+  <material name="dark_grey">
+    <color rgba="0.282 0.278 0.239 1" />
+  </material>
+
+  <link name="world"/>
+
+  <joint name="world_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.2007 0.0526 0.5274" rpy="0 0 0" />
+      <mass value="0.1693" />
+      <inertia ixx="0.00026" ixy="3.95e-05" ixz="-9.91e-06" iyy="0.00029" iyz="1.72e-06" izz="0.00046" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/base_link.stl" /></geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/base_link.stl" /></geometry>
+    </collision>
+  </link>
+
+  <link name="Arm_base_link">
+    <inertial>
+      <origin xyz="0.1044 0.0020 0.0327" rpy="0 0 0" />
+      <mass value="0.4276" />
+      <inertia ixx="0.00062" ixy="-5.33e-06" ixz="1.15e-05" iyy="0.00054" iyz="2.6e-07" izz="0.00082" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/Arm_base_link.stl" /></geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/Arm_base_link.stl" /></geometry>
+    </collision>
+  </link>
+
+  <link name="j1_arm_link">
+    <inertial>
+      <origin xyz="0.0024 0.0440 0.0609" rpy="0 0 0" />
+      <mass value="0.3758" />
+      <inertia ixx="0.00098" ixy="-3.69e-05" ixz="-5.02e-05" iyy="0.00047" iyz="-0.00011" izz="0.00116" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j1_arm_link.stl" /></geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j1_arm_link.stl" /></geometry>
+    </collision>
+  </link>
+
+  <link name="j2_arm_link">
+    <inertial>
+      <origin xyz="0.0471 -0.1214 -0.0688" rpy="0 0 0" />
+      <mass value="0.4354" />
+      <inertia ixx="0.00077" ixy="0.00029" ixz="-2.63e-06" iyy="0.00031" iyz="1.53e-06" izz="0.00103" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j2_arm_link.stl" /></geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j2_arm_link.stl" /></geometry>
+    </collision>
+  </link>
+
+  <link name="j3_arm_link">
+    <inertial>
+      <origin xyz="0.0144 -0.0133 -0.0288" rpy="0 0 0" />
+      <mass value="0.3090" />
+      <inertia ixx="0.00033" ixy="6.88e-05" ixz="1.37e-05" iyy="0.00036" iyz="-9.73e-06" izz="0.00044" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j3_arm_link.stl" /></geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j3_arm_link.stl" /></geometry>
+    </collision>
+  </link>
+
+  <link name="j4_arm_link">
+    <inertial>
+      <origin xyz="0.0213 0.0006 0.0588" rpy="0 0 0" />
+      <mass value="0.1945" />
+      <inertia ixx="0.00022" ixy="-2.15e-07" ixz="-4.26e-05" iyy="0.00020" iyz="-2.92e-06" izz="0.00013" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j4_arm_link.stl" /></geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j4_arm_link.stl" /></geometry>
+    </collision>
+  </link>
+
+  <link name="j5_arm_link">
+    <inertial>
+      <origin xyz="-0.0038 -0.0005 0.0405" rpy="0 0 0" />
+      <mass value="0.0919" />
+      <inertia ixx="5.92e-05" ixy="-1.88e-06" ixz="-4.28e-07" iyy="7.61e-05" iyz="-1.35e-07" izz="7.94e-05" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j5_arm_link.stl" /></geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j5_arm_link.stl" /></geometry>
+    </collision>
+  </link>
+
+  <link name="j6_arm_link">
+    <inertial>
+      <origin xyz="-0.0001 -0.0001 -0.0495" rpy="0 0 0" />
+      <mass value="0.0429" />
+      <inertia ixx="8.45e-06" ixy="5.33e-08" ixz="5.93e-08" iyy="8.40e-06" iyz="4.21e-08" izz="1.21e-05" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j6_arm_link.stl" /></geometry>
+      <material name="dark_grey"/>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robotic_arm/meshes/j6_arm_link.stl" /></geometry>
+    </collision>
+  </link>
+
+  <joint name="Arm_base_joint" type="fixed">
+    <origin xyz="0.20248 0.050584 0.503" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="Arm_base_link" />
+  </joint>
+
+  <joint name="j1_arm_joint" type="revolute">
+    <origin xyz="0.10729 0.0016676 0.0235" rpy="0 0 0" />
+    <parent link="Arm_base_link" />
+    <child link="j1_arm_link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.15" upper="3.15" effort="100.0" velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+
+  <joint name="j2_arm_joint" type="revolute">
+    <origin xyz="0.018399 0.12385 0.086" rpy="-1.5708 0 0.040685" />
+    <parent link="j1_arm_link" />
+    <child link="j2_arm_link" />
+    <axis xyz="0 0 -1" />
+    <limit lower="-3.15" upper="3.15" effort="100.0" velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+
+  <joint name="j3_arm_joint" type="revolute">
+    <origin xyz="0.12076 -0.25106 -0.0848" rpy="0 0 0" />
+    <parent link="j2_arm_link" />
+    <child link="j3_arm_link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.15" upper="3.15" effort="100.0" velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+
+  <joint name="j4_arm_joint" type="revolute">
+    <origin xyz="0.073433 -0.039343 -0.0352" rpy="1.5708 1.5685 1.6283" />
+    <parent link="j3_arm_link" />
+    <child link="j4_arm_link" />
+    <axis xyz="0 0 -1" />
+    <limit lower="-3.15" upper="3.15" effort="100.0" velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+
+  <joint name="j5_arm_joint" type="revolute">
+    <origin xyz="0.046002 0.0036936 0.1553" rpy="0.7494 -1.5708 -0.66941" />
+    <parent link="j4_arm_link" />
+    <child link="j5_arm_link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.15" upper="3.15" effort="100.0" velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+
+  <joint name="j6_arm_joint" type="revolute">
+    <origin xyz="0.050649 0.0059739 0.04615" rpy="-1.5708 1.496 -1.4534" />
+    <parent link="j5_arm_link" />
+    <child link="j6_arm_link" />
+    <axis xyz="0 0 -1" />
+    <limit lower="-3.15" upper="3.15" effort="100.0" velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1" />
+  </joint>
+
+  <ros2_control name="IgnitionSystem" type="system">
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    </hardware>
+    <joint name="j1_arm_joint">
+      <command_interface name="position"/>
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j2_arm_joint">
+      <command_interface name="position"/>
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j3_arm_joint">
+      <command_interface name="position"/>
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j4_arm_joint">
+      <command_interface name="position"/>
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j5_arm_joint">
+      <command_interface name="position"/>
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="j6_arm_joint">
+      <command_interface name="position"/>
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>$(find gp_arm_moveit)/config/ros2_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

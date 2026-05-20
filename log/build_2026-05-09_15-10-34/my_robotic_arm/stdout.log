@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing my_robotic_arm.egg-info/PKG-INFO
+writing dependency_links to my_robotic_arm.egg-info/dependency_links.txt
+writing entry points to my_robotic_arm.egg-info/entry_points.txt
+writing requirements to my_robotic_arm.egg-info/requires.txt
+writing top-level names to my_robotic_arm.egg-info/top_level.txt
+reading manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+writing manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my-robotic-arm.egg-link (link to .)
+Installing arm_mover_node script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+
+Installed /home/yousef_elabd/gp_arm/build/my_robotic_arm
+running symlink_data

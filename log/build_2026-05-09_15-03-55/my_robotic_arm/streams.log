@@ -1,0 +1,49 @@
+[0.943s] Invoking command in '/home/yousef_elabd/gp_arm/build/my_robotic_arm': PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yousef_elabd/gp_arm/build/my_robotic_arm/build --no-deps symlink_data
+[1.330s] running develop
+[1.559s] running egg_info
+[1.559s] creating my_robotic_arm.egg-info
+[1.560s] writing my_robotic_arm.egg-info/PKG-INFO
+[1.561s] writing dependency_links to my_robotic_arm.egg-info/dependency_links.txt
+[1.561s] writing entry points to my_robotic_arm.egg-info/entry_points.txt
+[1.561s] writing requirements to my_robotic_arm.egg-info/requires.txt
+[1.561s] writing top-level names to my_robotic_arm.egg-info/top_level.txt
+[1.561s] writing manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+[1.564s] reading manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+[1.568s] writing manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+[1.568s] running build_ext
+[1.568s] Creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my-robotic-arm.egg-link (link to .)
+[1.568s] Installing arm_mover_node script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+[1.571s] 
+[1.571s] Installed /home/yousef_elabd/gp_arm/build/my_robotic_arm
+[1.572s] running symlink_data
+[1.572s] creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/ament_index
+[1.572s] creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/ament_index/resource_index
+[1.572s] creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/ament_index/resource_index/packages
+[1.572s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/resource/my_robotic_arm -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/ament_index/resource_index/packages
+[1.572s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/package.xml -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm
+[1.572s] creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/launch
+[1.572s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/launch/complete_launch.py -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/launch
+[1.572s] creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+[1.572s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/urdf/config_arm_robot.urdf -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+[1.572s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/urdf/config_arm_robot.csv:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+[1.572s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/urdf/config_arm_robot.urdf:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+[1.572s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/urdf/config_arm_robot.csv -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+[1.572s] creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.573s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j4_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.573s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j3_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.573s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j1_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.573s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j1_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.573s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/Arm_base_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.573s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/base_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.573s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j5_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.573s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j2_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.574s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j2_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.574s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/Arm_base_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.574s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/base_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.574s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j3_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.576s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j5_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.576s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j4_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.576s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j6_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.576s] symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j6_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[1.576s] creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/config
+[1.610s] Invoked command in '/home/yousef_elabd/gp_arm/build/my_robotic_arm' returned '0': PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yousef_elabd/gp_arm/build/my_robotic_arm/build --no-deps symlink_data

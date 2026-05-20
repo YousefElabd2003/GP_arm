@@ -1,0 +1,40 @@
+running develop
+running egg_info
+writing my_robotic_arm.egg-info/PKG-INFO
+writing dependency_links to my_robotic_arm.egg-info/dependency_links.txt
+writing entry points to my_robotic_arm.egg-info/entry_points.txt
+writing requirements to my_robotic_arm.egg-info/requires.txt
+writing top-level names to my_robotic_arm.egg-info/top_level.txt
+reading manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+writing manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my-robotic-arm.egg-link (link to .)
+Installing arm_ik_solver script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+Installing arm_mover_node script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+Installing point_extractor script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+
+Installed /home/yousef_elabd/gp_arm/build/my_robotic_arm
+running symlink_data
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/resource/my_robotic_arm -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/ament_index/resource_index/packages
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/package.xml -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/launch/complete_launch.py -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/launch
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/urdf/config_arm_robot.urdf -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/urdf/config_arm_robot.csv:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/urdf/config_arm_robot.urdf:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/urdf/config_arm_robot.csv -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j4_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j3_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j1_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j1_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/Arm_base_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/base_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j5_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j2_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j2_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/Arm_base_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/base_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j3_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j5_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j4_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j6_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+symbolically linking /home/yousef_elabd/gp_arm/build/my_robotic_arm/meshes/j6_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes

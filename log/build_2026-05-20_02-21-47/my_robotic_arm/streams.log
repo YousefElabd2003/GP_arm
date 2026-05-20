@@ -1,0 +1,21 @@
+[0.794s] Invoking command in '/home/yousef_elabd/gp_arm/build/my_robotic_arm': PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yousef_elabd/gp_arm/build/my_robotic_arm/build --no-deps symlink_data
+[1.032s] running develop
+[1.169s] running egg_info
+[1.169s] writing my_robotic_arm.egg-info/PKG-INFO
+[1.169s] writing dependency_links to my_robotic_arm.egg-info/dependency_links.txt
+[1.170s] writing entry points to my_robotic_arm.egg-info/entry_points.txt
+[1.170s] writing requirements to my_robotic_arm.egg-info/requires.txt
+[1.170s] writing top-level names to my_robotic_arm.egg-info/top_level.txt
+[1.172s] reading manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+[1.173s] writing manifest file 'my_robotic_arm.egg-info/SOURCES.txt'
+[1.174s] running build_ext
+[1.175s] Creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my-robotic-arm.egg-link (link to .)
+[1.175s] Installing arm_ik_solver script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+[1.176s] Installing arm_mover_node script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+[1.176s] Installing door_sim script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+[1.176s] Installing elevator_sim script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+[1.177s] Installing point_extractor script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+[1.177s] 
+[1.177s] Installed /home/yousef_elabd/gp_arm/build/my_robotic_arm
+[1.177s] running symlink_data
+[1.210s] Invoked command in '/home/yousef_elabd/gp_arm/build/my_robotic_arm' returned '0': PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yousef_elabd/gp_arm/build/my_robotic_arm/build --no-deps symlink_data

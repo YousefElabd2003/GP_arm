@@ -1,0 +1,60 @@
+[1.000s] Invoking command in '/home/yousef_elabd/gp_arm/build/my_robotic_arm': PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yousef_elabd/gp_arm/build/my_robotic_arm/build
+[1.410s] running develop
+[1.667s] Removing /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my-robotic-arm.egg-link (link to .)
+[1.711s] Invoked command in '/home/yousef_elabd/gp_arm/build/my_robotic_arm' returned '0': PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yousef_elabd/gp_arm/build/my_robotic_arm/build
+[1.712s] Invoking command in '/home/yousef_elabd/gp_arm/src/my_robotic_arm': PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robotic_arm build --build-base /home/yousef_elabd/gp_arm/build/my_robotic_arm/build install --record /home/yousef_elabd/gp_arm/build/my_robotic_arm/install.log --single-version-externally-managed install_data --force
+[2.055s] running egg_info
+[2.056s] writing ../../build/my_robotic_arm/my_robotic_arm.egg-info/PKG-INFO
+[2.056s] writing dependency_links to ../../build/my_robotic_arm/my_robotic_arm.egg-info/dependency_links.txt
+[2.056s] writing entry points to ../../build/my_robotic_arm/my_robotic_arm.egg-info/entry_points.txt
+[2.057s] writing requirements to ../../build/my_robotic_arm/my_robotic_arm.egg-info/requires.txt
+[2.057s] writing top-level names to ../../build/my_robotic_arm/my_robotic_arm.egg-info/top_level.txt
+[2.060s] reading manifest file '../../build/my_robotic_arm/my_robotic_arm.egg-info/SOURCES.txt'
+[2.061s] writing manifest file '../../build/my_robotic_arm/my_robotic_arm.egg-info/SOURCES.txt'
+[2.062s] running build
+[2.062s] running build_py
+[2.062s] creating /home/yousef_elabd/gp_arm/build/my_robotic_arm/build
+[2.063s] creating /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib
+[2.063s] creating /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm
+[2.064s] copying my_robotic_arm/arm_mover.py -> /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm
+[2.064s] copying my_robotic_arm/__init__.py -> /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm
+[2.064s] copying my_robotic_arm/real_arm_bridge.py -> /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm
+[2.065s] running install
+[2.066s] running install_lib
+[2.068s] creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm
+[2.069s] copying /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm/arm_mover.py -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm
+[2.069s] copying /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm/__init__.py -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm
+[2.069s] copying /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm/real_arm_bridge.py -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm
+[2.070s] byte-compiling /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm/arm_mover.py to arm_mover.cpython-310.pyc
+[2.072s] byte-compiling /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm/__init__.py to __init__.cpython-310.pyc
+[2.073s] byte-compiling /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm/real_arm_bridge.py to real_arm_bridge.cpython-310.pyc
+[2.074s] running install_data
+[2.074s] copying resource/my_robotic_arm -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/ament_index/resource_index/packages
+[2.075s] copying package.xml -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm
+[2.075s] copying launch/complete_launch.py -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/launch
+[2.075s] copying urdf/config_arm_robot.urdf -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+[2.075s] copying urdf/config_arm_robot.csv:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+[2.089s] copying urdf/config_arm_robot.urdf:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+[2.089s] copying urdf/config_arm_robot.csv -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+[2.090s] copying meshes/j4_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.091s] copying meshes/j3_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.091s] copying meshes/j1_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.092s] copying meshes/j1_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.093s] copying meshes/Arm_base_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.094s] copying meshes/base_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.095s] copying meshes/j5_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.095s] copying meshes/j2_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.096s] copying meshes/j2_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.097s] copying meshes/Arm_base_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.097s] copying meshes/base_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.098s] copying meshes/j3_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.098s] copying meshes/j5_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.099s] copying meshes/j4_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.100s] copying meshes/j6_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.100s] copying meshes/j6_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+[2.101s] running install_egg_info
+[2.104s] Copying ../../build/my_robotic_arm/my_robotic_arm.egg-info to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm-0.0.0-py3.10.egg-info
+[2.106s] running install_scripts
+[2.139s] Installing arm_mover_node script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+[2.140s] writing list of installed files to '/home/yousef_elabd/gp_arm/build/my_robotic_arm/install.log'
+[2.175s] Invoked command in '/home/yousef_elabd/gp_arm/src/my_robotic_arm' returned '0': PYTHONPATH=/home/yousef_elabd/gp_arm/build/my_robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robotic_arm build --build-base /home/yousef_elabd/gp_arm/build/my_robotic_arm/build install --record /home/yousef_elabd/gp_arm/build/my_robotic_arm/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,56 @@
+running develop
+Removing /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my-robotic-arm.egg-link (link to .)
+running egg_info
+writing ../../build/my_robotic_arm/my_robotic_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robotic_arm/my_robotic_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robotic_arm/my_robotic_arm.egg-info/entry_points.txt
+writing requirements to ../../build/my_robotic_arm/my_robotic_arm.egg-info/requires.txt
+writing top-level names to ../../build/my_robotic_arm/my_robotic_arm.egg-info/top_level.txt
+reading manifest file '../../build/my_robotic_arm/my_robotic_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robotic_arm/my_robotic_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yousef_elabd/gp_arm/build/my_robotic_arm/build
+creating /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib
+creating /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm
+copying my_robotic_arm/arm_mover.py -> /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm
+copying my_robotic_arm/__init__.py -> /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm
+copying my_robotic_arm/real_arm_bridge.py -> /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm
+running install
+running install_lib
+creating /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm
+copying /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm/arm_mover.py -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm
+copying /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm/__init__.py -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm
+copying /home/yousef_elabd/gp_arm/build/my_robotic_arm/build/lib/my_robotic_arm/real_arm_bridge.py -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm
+byte-compiling /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm/arm_mover.py to arm_mover.cpython-310.pyc
+byte-compiling /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm/real_arm_bridge.py to real_arm_bridge.cpython-310.pyc
+running install_data
+copying resource/my_robotic_arm -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm
+copying launch/complete_launch.py -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/launch
+copying urdf/config_arm_robot.urdf -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+copying urdf/config_arm_robot.csv:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+copying urdf/config_arm_robot.urdf:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+copying urdf/config_arm_robot.csv -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/urdf
+copying meshes/j4_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j3_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j1_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j1_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/Arm_base_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/base_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j5_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j2_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j2_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/Arm_base_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/base_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j3_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j5_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j4_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j6_arm_link.STL:Zone.Identifier -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+copying meshes/j6_arm_link.stl -> /home/yousef_elabd/gp_arm/install/my_robotic_arm/share/my_robotic_arm/meshes
+running install_egg_info
+Copying ../../build/my_robotic_arm/my_robotic_arm.egg-info to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/python3.10/site-packages/my_robotic_arm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm_mover_node script to /home/yousef_elabd/gp_arm/install/my_robotic_arm/lib/my_robotic_arm
+writing list of installed files to '/home/yousef_elabd/gp_arm/build/my_robotic_arm/install.log'

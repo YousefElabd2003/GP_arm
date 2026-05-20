@@ -1,0 +1,1 @@
+/home/yousef_elabd/gp_arm/build/gp_arm_moveit/ament_cmake_environment_hooks/local_setup.sh

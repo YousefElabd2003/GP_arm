@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="config_arm_robot">
+    <group name="arm">
+        <chain base_link="Arm_base_link" tip_link="j6_arm_link"/>
+    </group>
+
+    <group_state name="home" group="arm">
+        <joint name="j1_arm_joint" value="0"/>
+        <joint name="j2_arm_joint" value="0"/>
+        <joint name="j3_arm_joint" value="0"/>
+        <joint name="j4_arm_joint" value="0"/>
+        <joint name="j5_arm_joint" value="0"/>
+        <joint name="j6_arm_joint" value="0"/>
+    </group_state>
+
+    <end_effector name="gripper" parent_link="j6_arm_link" group="arm"/>
+
+    <virtual_joint name="virtual_joint" type="fixed" parent_frame="world" child_link="base_link"/>
+
+    <disable_collisions link1="Arm_base_link" link2="base_link" reason="Adjacent"/>
+    <disable_collisions link1="Arm_base_link" link2="j1_arm_link" reason="Adjacent"/>
+    <disable_collisions link1="Arm_base_link" link2="j2_arm_link" reason="Never"/>
+    <disable_collisions link1="Arm_base_link" link2="j3_arm_link" reason="Never"/>
+    <disable_collisions link1="base_link" link2="j1_arm_link" reason="Never"/>
+    
+    <disable_collisions link1="j1_arm_link" link2="j2_arm_link" reason="Adjacent"/>
+    <disable_collisions link1="j1_arm_link" link2="j3_arm_link" reason="Never"/>
+    
+    <disable_collisions link1="j2_arm_link" link2="j3_arm_link" reason="Adjacent"/>
+    <disable_collisions link1="j2_arm_link" link2="j4_arm_link" reason="Never"/>
+    
+    <disable_collisions link1="j3_arm_link" link2="j4_arm_link" reason="Adjacent"/>
+    <disable_collisions link1="j3_arm_link" link2="j5_arm_link" reason="Never"/>
+    <disable_collisions link1="j3_arm_link" link2="j6_arm_link" reason="Never"/>
+    
+    <disable_collisions link1="j4_arm_link" link2="j5_arm_link" reason="Adjacent"/>
+    <disable_collisions link1="j4_arm_link" link2="j6_arm_link" reason="Never"/>
+    
+    <disable_collisions link1="j5_arm_link" link2="j6_arm_link" reason="Adjacent"/>
+</robot>
